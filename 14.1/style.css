@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+
+
+
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    position: relative;
+    overflow: hidden;
+}
+
+.box1::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: 1s ease-in all;
+    transform: translateX(100%);
+    background-color: green;
+}
+
+.box1:hover::after{
+    transform: translateX(0);
+    background-color: green;
+    transform:translateY(0) ;
+
+}

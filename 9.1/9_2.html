@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+           
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background:brown ;
+            color: black;
+            text-align: center;
+            padding: 30px;
+            width: 25px;
+            text-align: center;
+            display: inline-block;
+            
+            
+            
+            
+            
+            
+        }
+
+        #cloumn {
+            flex-direction: column;
+            text-align: center;
+            display: inline-block;
+            
+            
+
+            
+        }
+        h1 p {
+            display: inline-block;
+        }
+
+        
+       
+        /* cloumn */
+        @media(max-width: 500px) {
+            body {
+                background: red;
+                
+                
+                
+            }
+            #cloumn h1 {
+                display: block;
+                
+                
+                
+            }
+        }
+
+        /* cloumn */
+        @media (min-width: 501px) and (max-width: 769px) {
+            body {
+                background: black;
+            }
+            #cloumn h1 {
+                display: block;
+            }
+        }
+
+        /* cloumn */
+        @media (min-width: 501px) and (max-width: 769px) {
+            body {
+                background: blue;
+            }
+            #cloumn3 h1 {
+                display: block;
+            }
+        }
+
+        /* cloumn */
+        @media (min-width: 1200px)  {
+            body {
+                background: firebrick;
+                
+                
+            }
+            #cloumn h1 {
+                display: block;
+                
+
+                
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+    <div>
+    <div id="cloumn">
+        <h1>item1</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+   </div>
+
+    <div id="cloumn">
+        <h1>item2</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elite</p>
+    </div>
+
+    <div id="cloumn">
+        <h1>item3</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit</p>
+    </div>
+
+    <div id="cloumn"
+    ><h1>item4</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+    </div>
+
+
+    
+</body>
+</html>
